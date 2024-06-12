@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   app:
+    image: netris_solution
     build:
       context: .
       dockerfile: Dockerfile
